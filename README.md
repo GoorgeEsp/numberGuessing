@@ -1,0 +1,2 @@
+# numberGuessing
+Game that, by entering two numbers, will choose a random number in that range and the user will have to find it. To facilitate the search, each round is shown a list with the numbers already mentioned. Every 3 incorrect attempts the user will be asked if they want help. If this reform affirmative, you will be randomly given a hint to facilitate the process.  It ends when the user succeeds, showing the number of attempts.
