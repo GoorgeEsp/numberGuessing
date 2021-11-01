@@ -56,14 +56,14 @@ while guess != number and score > 0:
 				typeClue = random.randint(1, typeClues)
 				if typeClue == 1:
 					dimension = upperDimension(number, upper)
-					print("El número que se busca se encuentra en el rango 1[{0} - {1}]".format(lower, dimension))
+					print("El número que se busca se encuentra en el rango [{0} - {1}]".format(lower, dimension))
 					upper = dimension
 					range = newDimension(lower, upper, numbersTryed)
 					default = 100/range
 				if typeClue == 2:
 					dimension = lowerDimension(lower, number)
 					lower = dimension
-					print("El número que se busca se encuentra en el rango 2[{0} - {1}]".format(lower, upper))
+					print("El número que se busca se encuentra en el rango [{0} - {1}]".format(lower, upper))
 					range = newDimension(lower, upper, numbersTryed)
 					default = 100/range
 				if typeClue == 3:
